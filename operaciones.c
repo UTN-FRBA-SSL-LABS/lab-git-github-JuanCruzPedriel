@@ -2,6 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
+// Se agrega const a los parámetros porque no se modifican dentro de la función, lo que mejora su legibilidad.
 int sumar(const int a, const int b) {
     return a + b;
 }
